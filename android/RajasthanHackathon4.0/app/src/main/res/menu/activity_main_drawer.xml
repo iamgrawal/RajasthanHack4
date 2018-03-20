@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="History">
+        <menu>
+            <item
+                android:id="@+id/previous_bills"
+                android:icon="@drawable/ic_assessment_black_24dp"
+                android:title="Previous Bills" />
+            <item
+                android:id="@+id/previous_tests"
+                android:icon="@drawable/ic_accessible_black_24dp"
+                android:title="Previous Tests" />
+            <item
+                android:id="@+id/medical_record"
+                android:icon="@drawable/ic_assignment_black_24dp"
+                android:title="Medical Record" />
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/reminders_drawer"
+            android:icon="@drawable/ic_alarm_black_24dp"
+            android:title="Reminders" />
+        <item
+            android:id="@+id/chat_drawer"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Chat" />
+        <item
+            android:id="@+id/settings_drawer"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Settings" />
+    </group>
+
+
+</menu>
